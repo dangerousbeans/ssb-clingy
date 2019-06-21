@@ -1,0 +1,22 @@
+{
+  "name": "ssb-clingy",
+  "version": "1.0.0",
+  "description": "Friendly follow-back behaviour for strangers who connect to a scuttlebutt instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangerousbeans/ssb-clingy.git"
+  },
+  "keywords": [
+    "ssb"
+  ],
+  "author": "Joran Kikke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dangerousbeans/ssb-clingy/issues"
+  },
+  "homepage": "https://github.com/dangerousbeans/ssb-clingy#readme"
+}
