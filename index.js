@@ -1,8 +1,8 @@
 // Clingy Plugin
 //
 // Will follow any connecting id unless already following
-exports.name = 'ssb-clingy'
-exports.version = '1.0.2'
+exports.name = 'clingy'
+exports.version = '1.0.3'
 
 exports.init = function (api, opts) {
   api.auth.hook(function (fn, args) {
