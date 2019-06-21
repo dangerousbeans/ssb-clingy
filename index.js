@@ -2,9 +2,9 @@
 //
 // Will follow any connecting id unless already following
 exports.name = 'ssb-clingy'
-exports.version = '1.0.1'
+exports.version = '1.0.2'
 
-module.exports = function (api, opts) {
+exports.init = function (api, opts) {
   api.auth.hook(function (fn, args) {
   	var connecting_id = args[0]
     var our_id = api.whoami().id

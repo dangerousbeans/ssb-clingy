@@ -5,7 +5,7 @@ Behaviour change plugin for scuttlebutt - follows back anyone who manages to con
 ## Install
 
 ```sh
-ssb-server plugin.install ssb-clingy
+ssb-server plugins.install ssb-clingy
 ```
 
 
