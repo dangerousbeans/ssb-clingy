@@ -2,7 +2,8 @@
 //
 // Will follow any connecting id unless already following
 exports.name = 'clingy'
-exports.version = '1.0.3'
+exports.version = '1.0.4'
+exports.manifest = {}
 
 exports.init = function (api, opts) {
   api.auth.hook(function (fn, args) {
