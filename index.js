@@ -1,6 +1,9 @@
 // Clingy Plugin
 //
 // Will follow any connecting id unless already following
+exports.name = 'ssb-clingy'
+exports.version = '1.0.1'
+
 module.exports = function (api, opts) {
   api.auth.hook(function (fn, args) {
   	var connecting_id = args[0]
