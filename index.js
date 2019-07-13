@@ -2,7 +2,7 @@
 //
 // Will follow any connecting id unless already following
 exports.name = 'clingy'
-exports.version = '1.1.0'
+exports.version = '1.1.1'
 exports.manifest = {}
 
 exports.init = (api, opts) => {
