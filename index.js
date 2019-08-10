@@ -7,6 +7,8 @@ exports.manifest = {}
 
 exports.init = (api, opts) => {
   api.on('rpc:connect', function (rpc, args) {
+    if (api.id === rpc.id) return
+
     console.log("connection from: ", rpc.id)
 
     var our_id = api.whoami().id
